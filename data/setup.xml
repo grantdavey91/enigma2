@@ -9,7 +9,7 @@
 	<setup key="avsetup">
 		<!-- This is just a placeholder, the Videomode plugin implements this submenu -->
 	</setup>
-	<setup key="usage" title="Customize">
+	<setup key="usage" title="Customise">
 		<item level="0" text="Setup mode" description="Choose which level of menu/settings to display. 'Expert' level shows all items.">config.usage.setup_level</item>
 		<item level="1" text="Enable teletext caching" description="When enabled, teletext pages will be cached, allowing faster access.">config.usage.enable_tt_caching</item>
 		<item level="1" text="12V output" description="12V output." requires="12V_Output">config.usage.output_12V</item>
@@ -187,7 +187,7 @@
 		<item level="2" text="Offline decode delay (ms)" description="Configure the offline decoding delay (in milliseconds). The configured delay is observed at each control word parity change.">config.recording.offline_decode_delay</item>
 		<item level="2" text="Default recording type" description="Descramble &amp; record ECM' gives the option to descramble afterwards if descrambling on recording failed. 'Don't descramble, record ECM' save a scramble recording that can be descrambled on playback. 'Normal' means descramble the recording and don't record ECM.">config.recording.ecm_data</item>
 	</setup>
-	<setup key="harddisk" title="Hard disk setup" >
+	<setup key="harddisk" title="Settings" >
 		<item level="0" text="Hard disk standby after" description="Configure duration of inactivity before the hard disk drive goes to standby">config.usage.hdd_standby</item>
 	</setup>
 	<setup key="network" title="Network setup">
@@ -244,18 +244,18 @@
 		<item text="Latitude" description="Configure the latitude of your location.">config.sat.diseqcb</item>
 		<item text="Use power measurement" description="When enabled, measure power consumption to detect when the rotor stops turning (when supported by the tuner)." >config.sat.diseqcc</item>
 	</setup>
-	<setup key="softwareupdate" title="Software update settings">
+	<setup key="softwareupdate" title="Settings">
 		<item level="1" text="Background check" description="Perform an online update check in the background">config.softwareupdate.check</item>
 		<item level="1" text="Check every (hours)" description="Setup the interval (in hours) to check for online updates." requires="config.softwareupdate.check">config.softwareupdate.checktimer</item>
 		<item level="1" text="Allow unstable (experimental) updates" description="When enabled the online checker will also check for experimental versions">config.softwareupdate.updatebeta</item>
 		<item level="1" text="Automatic settings backup" description="Perform a settings backup before updating.">config.softwareupdate.autosettingsbackup</item>
 		<item level="1" text="Automatic image backup" description="Perform a complete image backup before updating.">config.softwareupdate.autoimagebackup</item>
 	</setup>
-	<setup key="softcamsetup" title="Softcam settings">
+	<setup key="softcamsetup" title="Settings">
 		<item level="2" text="Show CCcam Info in extensions?" description="Allows you to show/hide CCcam Info in extensions (blue button).">config.cccaminfo.showInExtensions</item>
 		<item level="2" text="Show OScam Info in extensions?" description="Allows you to show/hide OScam Info in extensions (blue button).">config.oscaminfo.showInExtensions</item>
 	</setup>
-	<setup key="logs" title="Logs settings">
+	<setup key="logs" title="Settings">
 		<item level="2" text="Logs folder location" description="Choose the location for crash and debug logs folder.">config.crash.debug_path</item>
 		<item level="2" text="Enable debug logs *" description="Allows you to enable the debug logs. They contain very detailed information about everything the system does. Reboot required to enable this!">config.crash.enabledebug</item>
 		<item level="2" text="Limit debug log size (MB)" description="Allows you to set the maximum size (MB) of the individual debug logs. When that size is reached, a new file will be created.">config.crash.debugloglimit</item>

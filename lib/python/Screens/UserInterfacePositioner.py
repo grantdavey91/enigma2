@@ -97,7 +97,7 @@ def InitOsd():
 class UserInterfacePositioner(Screen, ConfigListScreen):
 	def __init__(self, session, menu_path=""):
 		Screen.__init__(self, session)
-		screentitle = _("Position Setup")
+		screentitle = _("OSD position")
 		if config.usage.show_menupath.value == 'large':
 			menu_path += screentitle
 			title = menu_path
