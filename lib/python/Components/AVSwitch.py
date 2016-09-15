@@ -488,9 +488,9 @@ def InitAVSwitch():
 			except:
 				pass
 		config.av.hdmicolorspace = ConfigSelection(choices={
-				"Edid(Auto)": _("Auto"),
+				"Edid(auto)": _("Auto"),
 				"Hdmi_Rgb": _("RGB")},
-				default = "Edid(Auto)")
+				default = "Edid(auto)")
 		config.av.hdmicolorspace.addNotifier(setHDMIColorspace)
 	else:
 		config.av.hdmicolorspace = ConfigNothing()
@@ -513,11 +513,11 @@ def InitAVSwitch():
 			except:
 				pass
 		config.av.hdmicolorimetry = ConfigSelection(choices={
-				"auto": _("auto"),
+				"Auto": _("Auto"),
 				"bt2020ncl": _("BT 2020 NCL"),
 				"bt2020cl": _("BT 2020 CL"),
 				"bt709": _("BT 709")},
-				default = "auto")
+				default = "Auto")
 		config.av.hdmicolorimetry.addNotifier(setHDMIColorimetry)
 	else:
 		config.av.hdmicolorimetry = ConfigNothing()
